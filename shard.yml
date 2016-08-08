@@ -7,4 +7,4 @@ authors:
 license: MIT
 
 scripts:
-  postinstall: crystal build --release -o ./guardian src/guardian.cr
+  postinstall: crystal build --release guardian.cr
