@@ -5,3 +5,6 @@ authors:
   - Fatih Kadir Akın <fakin@protel.com.tr>
 
 license: MIT
+
+scripts:
+  postinstall: crystal build --release -o ./guardian src/guardian.cr
